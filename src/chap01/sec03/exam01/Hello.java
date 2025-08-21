@@ -1,4 +1,4 @@
-package sec03.exam01;
+package chap01.sec03.exam01;
 
 /**
  * @version 0.0

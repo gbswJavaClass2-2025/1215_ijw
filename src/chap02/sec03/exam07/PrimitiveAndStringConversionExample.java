@@ -1,4 +1,4 @@
-package chap02.sec03;
+package chap02.sec03.exam07;
 
 public class PrimitiveAndStringConversionExample {
     public static void main(String[] args) {

@@ -18,7 +18,7 @@ public class LogicalOperatorExample {
 
         int value = 6;
 
-        if (!(value % 2) | !(value % 3)) {
+        if ((value % 2) == 0 | (value % 3) == 0) {
             System.out.println("어이 당장 그만둬! 그건 2 혹은 3의 배수다!!!");
         }
 

@@ -2,7 +2,7 @@ package chap05.sec02.exam05;
 
 public class MainStringArrayArgument {
     public static void main(String[] args) {
-        if (args.length != 2) { System.out.println("인자 수가 부족함"); System.exit(0); }
+        if (args.length >= 2) { System.out.println("인자 수가 부족함"); System.exit(0); }
         else if (args.length >= 3) System.out.println("넌 나가라");
 
         String v1 = args[0];

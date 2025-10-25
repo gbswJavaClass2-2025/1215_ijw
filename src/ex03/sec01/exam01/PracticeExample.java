@@ -19,11 +19,13 @@ public class PracticeExample {
 
         System.out.println();
 
+        System.out.println("[4. 오버라이딩]");
         a.makeSound();
         d.makeSound();
 
         System.out.println();
 
+        System.out.println("[3. 오버로딩]");
         a.eat();
         a.eat("생고기");
 

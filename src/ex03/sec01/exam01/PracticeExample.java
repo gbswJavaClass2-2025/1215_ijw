@@ -5,7 +5,7 @@ public class PracticeExample {
         System.out.println("----- 실습 시발 -----");
         Animal a = new Animal("호랑이");
         System.out.println(">> Animal 객체 생성: " + a.species);
-        Animal d = new Dog("골든 리트리버", "골든 리트리버");
+        Animal d = new Dog("개", "골든 리트리버");
         System.out.println(">> Animal 객체 생성: " + d.species);
 
         System.out.println();

@@ -9,7 +9,7 @@ public class Dog extends Animal {
         this.bread = bread;
     }
 
-    @Override
+    // @Override
     public void makeSound() {
         System.out.println(this.bread + " 소리: 멍멍!(품종: " + this.species + ")");
     }

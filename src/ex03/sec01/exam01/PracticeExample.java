@@ -5,17 +5,17 @@ public class PracticeExample {
         System.out.println("----- 실습 시작 -----");
         Animal a = new Animal("호랑이");
         System.out.println(">> Animal 객체 생성: " + a.species);
-        Animal d = new Dog("개", "골든 리트리버");
+        Dog d = new Dog("개", "골든 리트리버");
         System.out.println(">> Animal 객체 생성: " + d.species);
 
         System.out.println();
 
         System.out.println("[1. 상속 & 2. 객체]");
         System.out.println("--- 호랑이 정보 ---");
-//        System.out.println("종: " + a.species);
+        System.out.println("종: " + a.species);
 
         System.out.println("--- 개 정보 ---");
-//        System.out.println("종: " + d.species);
+        System.out.println("종: " + d.species);
 
         System.out.println();
 
@@ -31,5 +31,6 @@ public class PracticeExample {
 
         d.eat();
         d.eat("개껌");
+        d.eat(500);
     }
 }

@@ -20,6 +20,9 @@ public class Dog extends Animal {
 
     public void eat(String w2e) {
         System.out.println(this.bread + ": " + "개이/가 " + w2e + "을/를 맛있게 먹습니다.");
-        System.out.println(this.bread + ": " + "개(" + this.bread + ")가 500 칼로리만큼 에너지를 보충합니다.");
+    }
+
+    public void eat(int kcal) {
+        System.out.println(this.bread + ": " + "개(" + this.bread + ")가 " + kcal + "칼로리만큼 에너지를 보충합니다.");
     }
 }

@@ -2,7 +2,7 @@ package ex03.sec01.exam01;
 
 public class PracticeExample {
     public static void main() {
-        System.out.println("----- 실습 시발 -----");
+        System.out.println("----- 실습 시작 -----");
         Animal a = new Animal("호랑이");
         System.out.println(">> Animal 객체 생성: " + a.species);
         Animal d = new Dog("개", "골든 리트리버");

@@ -3,7 +3,7 @@ package cote1.exam03;
 public class CheesePizza {
     public String name="Cheese Pizza";
     public int[] prices = { 1000, 2000, 3000 };
-    public String size;
+    public String size = "M";
 
     public CheesePizza() {
         this.size = "M";

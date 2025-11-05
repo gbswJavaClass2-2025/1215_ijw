@@ -17,13 +17,13 @@ public class BankPractice {
 
         // 계좌 거래 (오버로딩 각각 개시)
         System.out.println("--- 김철수님 일반 계좌 ---");
-        account1.deposit(100000);                          // 금액만
-        account1.deposit(50000, "월급으로부터");            // 금액+사유
+        account1.deposit(100000);
+        account1.deposit(50000, "월급으로부터");
 
         System.out.println("\n--- 이영희님 저축 계좌 ---");
-        account2.deposit(50000, "초기 납입금", true);       // 저축계좌만 해당
-        account2.deposit(20000);                           // 금액만 (상속됨)
-        account2.deposit(15000, "용돈으로부터");            // 금액+사유 (상속됨)
+        account2.deposit(50000, "초기 납입금", true);
+        account2.deposit(20000);
+        account2.deposit(15000, "용돈으로부터");
         System.out.println("\n----- 실습 종료 -----");
     }
 }

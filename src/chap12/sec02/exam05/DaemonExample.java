@@ -14,5 +14,4 @@ public class DaemonExample {
         }
         System.out.println("메인 스레드 종료");
     }
-
 }
